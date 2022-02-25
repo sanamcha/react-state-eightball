@@ -15,7 +15,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
-###Eight Ball
+### Eight Ball
 (There is no starter code for this exercise)
 
 In this exercise, you’ll build a simulation of a classic kid’s toy, the Magic Eight Ball.
@@ -26,13 +26,13 @@ This should appear as a black ball that initially reads “Think of a Question�
 When you click on the ball, it should choose a random answer & the matching color for that answer. For example, after clicking, it might look like this:
 
     _images/green.png
-###Step One: EightBall Component
+### Step One: EightBall Component
 This application will consist of two components:
 
-###App
+### App
 A simple component that just renders an EightBall component.
 
-###EightBall
+### EightBall
 The component for the magic eight ball.
 The EightBall should take a single property, answers, which should be an array of objects, with each object having a key for msg and color. For example, to use the answers from the classic commercial product, you could use these:
 
